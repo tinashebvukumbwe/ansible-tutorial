@@ -1,0 +1,21 @@
+ 1  which git
+    2  ssh-keygen -t ed25519 -C "github default"
+    3  cd .ssh
+    4  ls
+    5  cat id_ed25519.pub 
+    6  cd
+    7  git clone git@github.com:tinashebvukumbwe/ansible_tutorial.git
+    8  ls
+    9  cd ansible_tutorial/
+   10  ls
+   11  cat README.md 
+   12  git config --global user.name ""
+   13  git config --global user.email ""
+   14  cat ~/.gitconfig
+   15  vi README.md 
+   16  cat README.md 
+   17  git status
+   18  git add README.md
+   19  git status
+   22  git commit -m "updated readme file initial commit"
+   23  git push origin main
